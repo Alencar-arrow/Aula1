@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aula 1 — Planta Baixa do HTML &amp; CSS</title>
+<title>Aula 1 — Planta Baixa do HTML &amp; CSS (Versão Completa)</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -346,6 +346,7 @@
   <a class="navlink" href="#css">Estilo</a>
   <a class="navlink" href="#seletores">Seletores</a>
   <a class="navlink" href="#boxmodel">Box Model</a>
+  <a class="navlink" href="#multimidia">Mídia & Tabelas</a>
   <a class="navlink" href="#buraco-negro">Buraco negro</a>
   <a class="navlink" href="#playground">Playground</a>
   <a class="navlink" href="#resumo">Resumo</a>
@@ -381,34 +382,22 @@
     <div class="tag-card"><code class="big">&lt;p&gt;</code><p>Um parágrafo de texto comum.</p></div>
     <div class="tag-card"><code class="big">&lt;a href=""&gt;</code><p>Um link para outra página ou site.</p></div>
     <div class="tag-card"><code class="big">&lt;img src=""&gt;</code><p>Uma imagem. Não tem tag de fechamento.</p></div>
-    <div class="tag-card"><code class="big">&lt;ul&gt; / &lt;li&gt;</code><p>Lista com itens: a lista, e cada item dentro dela.</p></div>
+    <div class="tag-card"><code class="big">&lt;ul&gt; / &lt;li&gt;</code><p>Lista desordenada com itens dentro dela.</p></div>
+    <div class="tag-card"><code class="big">&lt;ol&gt; / &lt;li&gt;</code><p>Lista ordenada numerada com itens.</p></div>
     <div class="tag-card"><code class="big">&lt;div&gt;</code><p>Uma caixa genérica para agrupar e organizar outros elementos.</p></div>
     <div class="tag-card"><code class="big">&lt;span&gt;</code><p>Uma caixinha genérica, mas para um trecho de texto.</p></div>
     <div class="tag-card"><code class="big">&lt;button&gt;</code><p>Um botão clicável.</p></div>
-    <div class="tag-card"><code class="big">&lt;br&gt;</code><p>Quebra de linha. Sem tag de fechamento, assim como &lt;img&gt;.</p></div>
-    <div class="tag-card"><code class="big">&lt;hr&gt;</code><p>Uma linha horizontal, geralmente usada para separar seções de conteúdo.</p></div>
-    <div class="tag-card"><code class="big">&lt;strong&gt; / &lt;em&gt;</code><p>Texto em negrito (importância) e em itálico (ênfase).</p></div>
-    <div class="tag-card"><code class="big">&lt;table&gt;</code><p>Tabela com linhas &lt;tr&gt; e células &lt;td&gt;, para dados organizados em grade.</p></div>
-    <div class="tag-card"><code class="big">&lt;form&gt;</code><p>Agrupa campos que o usuário preenche e envia, como &lt;input&gt; e &lt;button&gt;.</p></div>
-    <div class="tag-card"><code class="big">&lt;input&gt;</code><p>Campo de entrada: texto, número, data, checkbox e outros tipos.</p></div>
-    <div class="tag-card"><code class="big">&lt;label&gt;</code><p>Rótulo de um campo de formulário, melhora acessibilidade e clique.</p></div>
-    <div class="tag-card"><code class="big">&lt;header&gt; / &lt;footer&gt;</code><p>Cabeçalho e rodapé semânticos de uma página ou seção.</p></div>
-    <div class="tag-card"><code class="big">&lt;nav&gt;</code><p>Agrupa os links de navegação principal do site.</p></div>
-    <div class="tag-card"><code class="big">&lt;section&gt;</code><p>Agrupa um bloco de conteúdo relacionado, com significado próprio na página.</p></div>
-    <div class="tag-card"><code class="big">&lt;ol&gt;</code><p>Lista de itens ordenadas. Exemplo: <br>1. Item <br>2. Item</p></div>
-    <div class="tag-card"><code class="big">&lt;ul&gt;</code><p>Lista de itens desordenadas. Exemplo: <br>*Item <br>
-*Item</p></div>
-
-
-  </div>
-
-  <div class="anatomy" style="margin-top:36px; padding:30px;">
-    <p style="margin:0 0 14px; color:var(--muted); font-size:13.5px;">Exemplo usando <code class="tag-html">&lt;br&gt;</code> para quebrar linhas dentro de um parágrafo, com texto "lorem ipsum" (um preenchedor clássico, sem significado, usado só para ocupar espaço):</p>
-    <div style="font-family:'JetBrains Mono',monospace; font-size:13px; color:var(--white-ink); background:var(--bg-deep); border:1px solid var(--line-soft); border-radius:6px; padding:14px 16px; line-height:1.8;">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;br&gt;
-Sed do eiusmod tempor incididunt ut labore et dolore.&lt;br&gt;
-Ut enim ad minim veniam, quis nostrud exercitation.
-    </div>
+    <div class="tag-card"><code class="big">&lt;br&gt;</code><p>Quebra de linha simples. Sem tag de fechamento.</p></div>
+    <div class="tag-card"><code class="big">&lt;hr&gt;</code><p>Uma linha horizontal divisória de conteúdo.</p></div>
+    <div class="tag-card"><code class="big">&lt;strong&gt; / &lt;em&gt;</code><p>Texto em negrito (forte) e itálico (ênfase).</p></div>
+    <div class="tag-card"><code class="big">&lt;table&gt;</code><p>Tabela com linhas &lt;tr&gt; e células &lt;td&gt;.</p></div>
+    <div class="tag-card"><code class="big">&lt;form&gt;</code><p>Agrupa campos interativos para o usuário enviar dados.</p></div>
+    <div class="tag-card"><code class="big">&lt;input&gt;</code><p>Campo de entrada: texto, senha, email, data, cor, etc.</p></div>
+    <div class="tag-card"><code class="big">&lt;label&gt;</code><p>Rótulo descritivo para campos de formulário.</p></div>
+    <div class="tag-card"><code class="big">&lt;header&gt; / &lt;footer&gt;</code><p>Cabeçalho e rodapé estruturais da página.</p></div>
+    <div class="tag-card"><code class="big">&lt;nav&gt;</code><p>Área contendo links de navegação principal.</p></div>
+    <div class="tag-card"><code class="big">&lt;section&gt;</code><p>Bloco temático de conteúdo independente.</p></div>
+    <div class="tag-card"><code class="big">&lt;details&gt; / &lt;summary&gt;</code><p>Cria um widget sanfona expansível com sumário clicável.</p></div>
   </div>
 </section>
 
@@ -425,16 +414,16 @@ Ut enim ad minim veniam, quis nostrud exercitation.
   </div>
 
   <div class="tag-grid" style="margin-top:36px;">
-    <div class="tag-card" ><code class="big" style="color:var(--css)">color</code><p>Cor do texto.</p></div>
-    <div class="tag-card"><code class="big" style="color:var(--css)">rowspan</code><p>Mesclagem vertical das colunas.</p></div>
-    <div class="tag-card"><code class="big" style="color:var(--css)">colspan</code><p>Mesclagem horizontal das colunas <br> Exemplo: <br> rowspan="3".</p></div>
-    <div class="tag-card"><code class="big" style="color:var(--css)">width</code><p>Tamanho da horizontal da borda.</p></div>
-    <div class="tag-card"><code class="big" style="color:var(--css)">height</code><p>Tamanho da vertical da borda.</p></div>
-    <div class="tag-card"><code class="big" style="color:var(--css)">background</code><p>Cor ou imagem de fundo.</p></div>
-    <div class="tag-card"><code class="big" style="color:var(--css)">font-size</code><p>Tamanho do texto.</p></div>
-    <div class="tag-card"><code class="big" style="color:var(--css)">margin</code><p>Espaço fora da caixa, entre ela e as vizinhas.</p></div>
-    <div class="tag-card"><code class="big" style="color:var(--css)">padding</code><p>Espaço dentro da caixa, entre a borda e o conteúdo.</p></div>
-    <div class="tag-card"><code class="big" style="color:var(--css)">border</code><p>Contorno ao redor da caixa.</p></div>
+    <div class="tag-card"><code class="big" style="color:var(--css)">color</code><p>Define a cor do texto do elemento.</p></div>
+    <div class="tag-card"><code class="big" style="color:var(--css)">background</code><p>Define cores ou imagens de fundo.</p></div>
+    <div class="tag-card"><code class="big" style="color:var(--css)">width / height</code><p>Largura e altura das caixas e elementos.</p></div>
+    <div class="tag-card"><code class="big" style="color:var(--css)">font-size</code><p>Define o tamanho da fonte do texto.</p></div>
+    <div class="tag-card"><code class="big" style="color:var(--css)">margin</code><p>Espaçamento externo fora da borda da caixa.</p></div>
+    <div class="tag-card"><code class="big" style="color:var(--css)">padding</code><p>Espaçamento interno entre a borda e o conteúdo.</p></div>
+    <div class="tag-card"><code class="big" style="color:var(--css)">border</code><p>Estilo, espessura e cor da borda ao redor.</p></div>
+    <div class="tag-card"><code class="big" style="color:var(--css)">border-radius</code><p>Arredondamento dos cantos das caixas.</p></div>
+    <div class="tag-card"><code class="big" style="color:var(--css)">display</code><p>Comportamento de layout (block, flex, grid, none).</p></div>
+    <div class="tag-card"><code class="big" style="color:var(--css)">transition</code><p>Suaviza animações e mudanças de estado ao passar o mouse.</p></div>
   </div>
 </section>
 
@@ -457,7 +446,7 @@ Ut enim ad minim veniam, quis nostrud exercitation.
     </div>
     <div class="sel-card">
       <span class="sel-code">#titulo { }</span>
-      <p><b style="color:var(--text)">Seletor de ID</b> — atinge um único elemento, o dono daquele <code>id</code>. Não repete.</p>
+      <p><b style="color:var(--text)">Seletor de ID</b> — atinge um único elemento exclusivo, o dono daquele <code>id</code>.</p>
       <div class="sel-html">&lt;h1 id="titulo"&gt;Único&lt;/h1&gt;</div>
     </div>
   </div>
@@ -489,9 +478,25 @@ Ut enim ad minim veniam, quis nostrud exercitation.
   </div>
 </section>
 
+<!-- ================= MULTIMÍDIA E TABELAS (NOVA SEÇÃO) ================= -->
+<section id="multimidia">
+  <div class="section-tag"><span class="bar"></span> PARTE 5 — RECURSOS AVANÇADOS</div>
+  <h2>Tabelas, Mídias e Atributos Especiais</h2>
+  <p class="intro">Além de textos, o HTML permite organizar grades de dados complexas e embutir elementos multimídia nativos.</p>
+
+  <div class="tag-grid">
+    <div class="tag-card"><code class="big">&lt;table&gt;, &lt;tr&gt;, &lt;td&gt;</code><p>Estrutura linhas e colunas para exibição tabular de dados.</p></div>
+    <div class="tag-card"><code class="big">colspan / rowspan</code><p>Atributos de células para mesclar colunas e linhas horizontal ou verticalmente.</p></div>
+    <div class="tag-card"><code class="big">&lt;audio controls&gt;</code><p>Insere um player de áudio nativo controlável na página.</p></div>
+    <div class="tag-card"><code class="big">&lt;video controls&gt;</code><p>Incorpora vídeos reproduzíveis diretamente pelo navegador.</p></div>
+    <div class="tag-card"><code class="big">&lt;iframe&gt;</code><p>Carrega páginas ou conteúdos externos (como mapas e vídeos do YouTube).</p></div>
+    <div class="tag-card"><code class="big">&lt;progress&gt;</code><p>Mostra uma barra de progresso visual para tarefas.</p></div>
+  </div>
+</section>
+
 <!-- ================= BURACO NEGRO (BONUS) ================= -->
 <section id="buraco-negro">
-  <div class="section-tag"><span class="bar"></span> PARTE 5 — BÔNUS</div>
+  <div class="section-tag"><span class="bar"></span> PARTE 6 — BÔNUS</div>
   <h2>Até um <span class="tag-css">buraco negro</span> dá pra fazer só com CSS</h2>
   <p class="intro">Sem imagens, sem vídeo, sem bibliotecas: só <code>div</code>s, gradientes e uma <code>@keyframes</code> girando o disco. Isso mostra o que CSS consegue fazer sozinho — cor, forma, camadas e movimento.</p>
 
@@ -518,7 +523,7 @@ Ut enim ad minim veniam, quis nostrud exercitation.
 
 <!-- ================= PLAYGROUND ================= -->
 <section id="playground">
-  <div class="section-tag"><span class="bar"></span> PARTE 6 — PRATIQUE</div>
+  <div class="section-tag"><span class="bar"></span> PARTE 7 — PRATIQUE</div>
   <h2>Editor ao vivo</h2>
   <p class="intro">Mude o HTML ou o CSS abaixo e veja o resultado atualizar na hora, na terceira coluna.</p>
 
