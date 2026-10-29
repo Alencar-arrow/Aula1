@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>📐 Aula 01 — Planta Baixa do HTML & CSS</h1>
+  <h1>Planta Baixa do HTML & CSS</h1>
 
   <p align="center">
     Projeto prático e educativo desenvolvido para estudar os fundamentos de Front-End: a estrutura do HTML e a estilização do CSS.
@@ -8,15 +8,15 @@
 
   <!-- Botão Principal (atualize o link se já estiver publicado no GitHub Pages) -->
   <a href="https://alencar-arrow.github.io/NOME-DO-REPOSITORIO/" target="_blank">
-    <img src="https://img.shields.io/badge/ Acessar%20Aula%20Ao%20Vivo-00CED1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Acessar Aula Ao Vivo" />
+    <img src="https://img.shields.io/badge/ Acessar%20Aula%20Ao%20Vivo-1A3D8FCED1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Acessar Aula Ao Vivo" />
   </a>
 
   <br/><br/>
 
   <!-- Badges de Tecnologia e Estado com espaçamento -->
-  ![](https://img.shields.io/badge/Status-Concluído-brightgreen?style=flat-square)&nbsp;&nbsp;
-  ![](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)&nbsp;&nbsp;
-  ![](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)&nbsp;&nbsp;
+  ![](https://img.shields.io/badge/Status-Concluído-brightgreen?style=flat-square)&nbsp;
+  ![](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)&nbsp;
+  ![](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)&nbsp;
   ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </div>
