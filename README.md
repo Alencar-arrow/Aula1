@@ -7,8 +7,8 @@
   </p>
 
   <!-- Botão Principal (atualize o link se já estiver publicado no GitHub Pages) -->
-  <a href="https://alencar-arrow.github.io/NOME-DO-REPOSITORIO/" target="_blank">
-    <img src="https://alencar-arrow.github.io/Aula1/aula-buraco-negro/ Acessar%20Aula%20Ao%20Vivo-008B8B?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Acessar Aula Ao Vivo" />
+  <a href="https://alencar-arrow.github.io/Aula1/aula-buraco-negro/" target="_blank">
+    <img src="https://img.shields.io/badge/ Acessar%20Aula%20Ao%20Vivo-008B8B?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Acessar Aula Ao Vivo" />
   </a>
 
   <br/><br/>
